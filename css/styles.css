@@ -200,13 +200,26 @@ body {
     border-radius: 0px 0px 4px 4px;
     background-color: var(--nav-bg_text-color);
 }
+
+/* 
+    FOOTER
+*/
+
 .footer {
     background-color: var(--section-bg-dark-color);
+}
+.footer-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    outline: 2px dotted;
+    padding: 60px 0 60px 0;
 }
 .address {
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.03em;
+    font-style: normal;
     color: var(--section-bg-middle-color);
 }
 .footer-contacts .footer-contacts-link {
