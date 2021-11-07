@@ -19,9 +19,19 @@ body {
     opacity: 0;
     margin-top: -1px;
 }
+/*
+    HEADER 
+ */
 .header {
     background-color: var(--nav-bg_text-color);
     border-bottom: 2px solid #ececec;
+}
+.header-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .nav {
     background-color: var(--nav-bg_text-color);
@@ -56,7 +66,8 @@ body {
     color: var(--main-text-color);
 }
 .nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-item:focus,
+.nav-list-item:active {
     color: var(--minor-text-color);
 }
 .nav-contacts .nav-contacts-item {
@@ -70,35 +81,62 @@ body {
 .nav-contacts-item:focus {
     color: var(--minor-text-color);
 }
+
+/*
+    MAIN
+ */
+
+/*
+    Hero
+*/
 .hero-section {
     background-color: var(--section-bg-dark-color);
+}
+.hero-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    padding: 200px;
+    text-align: center;
 }
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.2;
+    line-height: 1.37;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--nav-bg_text-color);
+    margin-bottom: 30px;
 }
 .button {
     background-color: var(--minor-text-color);
     color: var(--nav-bg_text-color);
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.9;
     letter-spacing: 0.06em;
     padding: 10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    display: inline-block;
 }
 .button:hover,
 .button:focus {
     background-color: #188ce8;
 }
+/*
+    Advantages
+*/
 .advantages-section {
     background-color: var(--nav-bg_text-color);
+}
+.content-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    outline: 2px dotted;
+    padding: 94px 0 94px 0;
 }
 .advantages-list .advantages-list-title {
     font-weight: bold;
@@ -114,6 +152,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
+/*
+    About us
+*/
 .about-us-section {
     background-color: var(--nav-bg_text-color);
 }
@@ -124,6 +165,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+/*
+    Our team
+*/
 .our-team-section {
     background-color: var(--section-bg-middle-color);
 }
