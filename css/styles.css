@@ -30,8 +30,7 @@ body {
     margin: auto;
     padding: auto;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;
 }
 .nav {
     background-color: var(--nav-bg_text-color);
@@ -135,8 +134,7 @@ body {
     margin: auto;
     padding: auto;
     width: 1200px;
-    outline: 2px dotted;
-    padding: 94px 0 94px 0;
+    padding: 94px 15px 94px 15px;
 }
 .advantages-list .advantages-list-title {
     font-weight: bold;
@@ -212,8 +210,7 @@ body {
     margin: auto;
     padding: auto;
     width: 1200px;
-    outline: 2px dotted;
-    padding: 60px 0 60px 0;
+    padding: 60px 15px 60px 15px;
 }
 .address {
     font-size: 14px;
@@ -236,6 +233,17 @@ body {
 .address:focus {
     color: var(--minor-text-color);
 }
+/*
+
+    PORTFOLIO PAGE
+
+*/
+.main-section-portfolio {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    padding: 0 15px 0 15px;
+}
 .portfolio-nav-button {
     font-weight: 500;
     font-size: 16px;
@@ -246,7 +254,7 @@ body {
     border-radius: 4px;
     background-color: var(--section-bg-middle-color);
     color: var(--main-text-color);
-    margin: 10px;
+    margin: 0;
     cursor: pointer;
 }
 .portfolio-nav-button:hover,
@@ -261,7 +269,7 @@ body {
     height: 404px;
     background: var(--nav-bg_text-color);
     border: 1px solid #eeeeee;
-    margin: 10px;
+    margin: 0;
 }
 .portfolio-block-title {
     font-weight: bold;
