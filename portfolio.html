@@ -29,91 +29,68 @@
                             >
                         </p>
                         <ul class="nav-list">
-                            <li>
-                                <a class="nav-list-item" href="./index.html"
-                                    >Студия</a
-                                >
+                            <li class="nav-list-item">
+                                <a href="./index.html">Студия</a>
                             </li>
-                            <li>
-                                <a class="nav-list-item" href="./portfolio.html"
+                            <li class="nav-list-item">
+                                <a class="current" href="./portfolio.html"
                                     >Портфолио</a
                                 >
                             </li>
-                            <li>
-                                <a class="nav-list-item" href="">Контакты</a>
+                            <li class="nav-list-item">
+                                <a href="">Контакты</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <ul class="nav-contacts">
-                    <li>
-                        <a class="nav-contacts-item" href="mailto:"
-                            >info@devstudio.com</a
-                        >
+                    <li class="nav-contacts-item">
+                        <a href="mailto:">info@devstudio.com</a>
                     </li>
-                    <li>
-                        <a class="nav-contacts-item" href="tel:"
-                            >+38 096 111 11 11</a
-                        >
+                    <li class="nav-contacts-item">
+                        <a href="tel:">+38 096 111 11 11</a>
                     </li>
                 </ul>
             </div>
         </header>
-        <main class="main-section-portfolio">
-            <section class="portfolio-img-nav">
-                <div class="img-nav-container">
+        <main>
+            <div class="main-section-portfolio">
+                <section class="portfolio-nav">
                     <h1 class="hidden-title">портфолио</h1>
-                    <div class="container">
-                        <ul>
-                            <li>
-                                <button
-                                    class="portfolio-nav-button"
-                                    type="button"
-                                >
-                                    Все
-                                </button>
-                            </li>
-                            <li>
-                                <button
-                                    class="portfolio-nav-button"
-                                    type="button"
-                                >
-                                    Веб-сайты
-                                </button>
-                            </li>
-                            <li>
-                                <button
-                                    class="portfolio-nav-button"
-                                    type="button"
-                                >
-                                    Приложения
-                                </button>
-                            </li>
-                            <li>
-                                <button
-                                    class="portfolio-nav-button"
-                                    type="button"
-                                >
-                                    Дизайн
-                                </button>
-                            </li>
-                            <li>
-                                <button
-                                    class="portfolio-nav-button"
-                                    type="button"
-                                >
-                                    Маркетинг
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="porfolio-photos">
-                <h2 class="hidden-title">Список Фотографий разных проектов</h2>
-                <ul>
-                    <li>
-                        <div class="portfolio-block">
+                    <ul class="portfolio-nav-list">
+                        <li class="portfolio-nav-item">
+                            <button class="portfolio-nav-button" type="button">
+                                Все
+                            </button>
+                        </li>
+                        <li class="portfolio-nav-item">
+                            <button class="portfolio-nav-button" type="button">
+                                Веб-сайты
+                            </button>
+                        </li>
+                        <li class="portfolio-nav-item">
+                            <button class="portfolio-nav-button" type="button">
+                                Приложения
+                            </button>
+                        </li>
+                        <li class="portfolio-nav-item">
+                            <button class="portfolio-nav-button" type="button">
+                                Дизайн
+                            </button>
+                        </li>
+                        <li class="portfolio-nav-item">
+                            <button class="portfolio-nav-button" type="button">
+                                Маркетинг
+                            </button>
+                        </li>
+                    </ul>
+                </section>
+                <section class="porfolio-photos">
+                    <h2 class="hidden-title">
+                        Список Фотографий разных проектов
+                    </h2>
+                    <ul class="portfolio-photos-list">
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -122,12 +99,12 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">Технокряк</h3>
-                            <p class="portfolio-block-text">Веб-сайт</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">Технокряк</h3>
+                                <p class="portfolio-block-text">Веб-сайт</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     src="./img/img(1).jpg"
@@ -135,14 +112,14 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">
-                                Постер New Orlean vs Golden Star
-                            </h3>
-                            <p class="portfolio-block-text">Дизайн</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Постер New Orlean vs Golden Star
+                                </h3>
+                                <p class="portfolio-block-text">Дизайн</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -151,14 +128,14 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">
-                                Ресторан Seafood
-                            </h3>
-                            <p class="portfolio-block-text">Приложение</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Ресторан Seafood
+                                </h3>
+                                <p class="portfolio-block-text">Приложение</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -167,12 +144,14 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">Проект Prime</h3>
-                            <p class="portfolio-block-text">Маркетинг</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Проект Prime
+                                </h3>
+                                <p class="portfolio-block-text">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -181,12 +160,14 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">Проект Boxes</h3>
-                            <p class="portfolio-block-text">Приложение</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Проект Boxes
+                                </h3>
+                                <p class="portfolio-block-text">Приложение</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -195,14 +176,14 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">
-                                Inspiration has no Borders
-                            </h3>
-                            <p class="portfolio-block-text">Веб-сайт</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Inspiration has no Borders
+                                </h3>
+                                <p class="portfolio-block-text">Веб-сайт</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -211,14 +192,14 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">
-                                Издание Limited Edition
-                            </h3>
-                            <p class="portfolio-block-text">Дизайн</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Издание Limited Edition
+                                </h3>
+                                <p class="portfolio-block-text">Дизайн</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -227,12 +208,14 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">Проект LAB</h3>
-                            <p class="portfolio-block-text">Маркетинг</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="portfolio-block">
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Проект LAB
+                                </h3>
+                                <p class="portfolio-block-text">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li class="portfolio-block">
                             <a href="#">
                                 <img
                                     class="portfolio-photos-item"
@@ -241,14 +224,16 @@
                                     width="370"
                                 />
                             </a>
-                            <h3 class="porfolio-block-title">
-                                Growing Business
-                            </h3>
-                            <p class="portfolio-block-text">Приложение</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>
+                            <div class="block-text-container">
+                                <h3 class="portfolio-block-title">
+                                    Growing Business
+                                </h3>
+                                <p class="portfolio-block-text">Приложение</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </main>
         <footer class="footer">
             <div class="footer-container">
@@ -265,15 +250,11 @@
                     >
                 </address>
                 <ul class="footer-contacts">
-                    <li>
-                        <a class="footer-contacts-link" href="mailto:"
-                            >info@example.com</a
-                        >
+                    <li class="footer-contacts-link">
+                        <a href="mailto:">info@example.com</a>
                     </li>
-                    <li>
-                        <a class="footer-contacts-link" href="tel:"
-                            >+38 099 111 11 11</a
-                        >
+                    <li class="footer-contacts-link">
+                        <a href="tel:">+38 099 111 11 11</a>
                     </li>
                 </ul>
             </div>
