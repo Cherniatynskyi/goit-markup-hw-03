@@ -19,12 +19,12 @@ input {
     outline: none;
 }
 
-/*img {
-    width: 100%;
+img {
     display: block;
-    height: auto;
+    /*width: 100%;
+    height: auto;*/
 }
-*/
+
 ul li {
     list-style: none;
 }
